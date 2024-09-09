@@ -1,0 +1,51 @@
+body {
+            background-color: #f8f9fa;
+            color: #000;
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            margin-top: 50px;
+            width: 80%; /* Adjust as needed */
+            margin: auto;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1); /* Add shadow for style */
+            background-color: #fff;
+        }
+        
+        table th, table td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd; /* Add bottom border */
+        }
+        
+        table th {
+            background-color: #f2f2f2; /* Light gray background for headers */
+        }
+        
+        .edit-button button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 8px 12px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        
+        .edit-button button:hover {
+            background-color: #0056b3;
+        }
+        
+        input[type=text], input[type=password] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 14px;
+        }

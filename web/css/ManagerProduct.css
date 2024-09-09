@@ -1,0 +1,170 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .product-manager-title {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .message {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .insert-product-btn {
+            display: block;
+            width: 25%;
+            margin: 20px auto;
+            text-align: center;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .search-form {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .search-input {
+            width: 60%;
+            margin-right: 10px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .search-button {
+            padding: 8px 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .product-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .product-table th, .product-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .product-image {
+            width: 50px;
+        }
+        .update-link, .delete-link {
+            text-decoration: none;
+            color: blue;
+        }
+        .update-form, .insert-form {
+            margin: 20px auto;
+            width: 80%;
+        }
+        .update-btn, .insert-btn {
+            display: block;
+            width: 100%;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ddd; /* Thêm đường viền cho bảng */
+}
+
+.product-table th, .product-table td {
+    border: 1px solid #ddd; /* Đường viền cho mỗi cell */
+    padding: 10px; /* Khoảng cách giữa nội dung và đường viền */
+    text-align: center; /* Căn giữa nội dung trong cell */
+}
+
+.product-table th {
+    background-color: #f2f2f2; /* Màu nền cho header của bảng */
+    color: #333; /* Màu chữ */
+}
+
+.product-table td {
+    background-color: #fff; /* Màu nền cho mỗi dòng */
+}
+.product-table tbody tr:hover {
+    background-color: #f9f9f9; /* Màu nền khi di chuột qua */
+}
+.product-table .product-image {
+    width: 50px;
+}
+
+.product-table td:nth-child(2) {
+    text-align: left; /* Căn trái cho cột tên sản phẩm */
+}
+.update-link, .delete-link {
+    text-decoration: none;
+    color: blue;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.update-link:hover, .delete-link:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+.insert-form .product-table input[type="text"],
+.insert-form .product-table input[type="number"],
+.insert-form .product-table select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.insert-form .product-table input[type="text"],
+.insert-form .product-table input[type="number"],
+.insert-form .product-table select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.insert-btn {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.insert-btn:hover {
+    background-color: #0056b3;
+}
+.insert-form .product-table select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* Màu nền cho dropdown select */
+}
+.insert-form .product-table th {
+    background-color: #f2f2f2; /* Màu nền cho header */
+    color: #333; /* Màu chữ */
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
